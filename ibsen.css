@@ -75,3 +75,9 @@
 .casting-table tbody tr:hover {
   background-color: #e5e7eb;
 }
+
+.name:hover {
+  text-shadow: 2px 2px 8px #0284c7;
+  border-bottom: 2px dashed #0284c7;
+  cursor: pointer;
+}
