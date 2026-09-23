@@ -32,3 +32,46 @@
 .speech {
   font-family: "Georgia", "Times New Roman", serif;
 }
+
+
+.casting-table {
+  width: 80%;
+  max-width: 650px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.casting-table th {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #1e3a8a;
+}
+
+.casting-table td {
+  padding: 10px 16px;
+  border: 1px solid #d1d5db;
+  text-align: left;
+  color: #1f2937;
+}
+
+.casting-table td:nth-child(3) {
+  text-align: right;
+  font-weight: bold;
+}
+
+.casting-table tbody tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.casting-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.casting-table tbody tr:hover {
+  background-color: #e5e7eb;
+}
